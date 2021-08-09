@@ -37,7 +37,7 @@
     <input type="text" class="form-control" id="address" name="address"> 
     <div class="form-group"></div>
     <label for="mobile">Mobile</label>
-    <input type="number" class="form-control" id="mobile" name="mobile">
+    <input type="text" inputmode="numeric" class="form-control" id="mobile" name="mobile">
     <div class="form-group">
         <label for="password">Password</label>
         <input type="password" class="form-control" id="password" name="password">
