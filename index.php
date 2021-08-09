@@ -13,25 +13,8 @@
     <link rel="stylesheet" type="text/css" href="css/opening.css">  
   </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#">CGC Book Project</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Sign Up     <i class="fas fa-user-plus"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Login       <i class="fas fa-sign-in-alt"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Admin  Login     <i class="fas fa-users-cog"></i></a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<?php 
+include 'outheader.php'?>
 
 <div class="opening col-xs-1">
 
