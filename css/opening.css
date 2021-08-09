@@ -1,0 +1,35 @@
+
+.opening{
+    background-image: url(../img/cgc.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    background-color: rgba(0, 0, 0, 0.623);
+    height: 50vh;
+    width: 90vh;
+    top: 20vh;
+    position: relative;
+    align-self: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+
+}
+
+.main>h2{
+    font-variant: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.main>h5{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
