@@ -21,7 +21,7 @@
     <div class="card" style="top:20px;margin:10px;padding:10px;background-color: rgba(0, 0, 0, 0.7); color:white;">
         <div class="card-heading ">User Registration</div>
         <div class="card-body">
-    <form action="register_new_action.php" method="post" >
+    <form action="register_new_action.php" method="post">
     <div class="form-group">
         <label for="email">Email</label>
         <input type="email" class="form-control" id="email" name="email">
@@ -41,6 +41,9 @@
     <div class="form-group">
         <label for="password">Password</label>
         <input type="password" class="form-control" id="password" name="password">
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="Submit"></button>
     </div>
     </form>
     </div>
