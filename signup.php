@@ -18,7 +18,7 @@
     ?>
     <br><br>
 <div class="full">
-    <div class="card" style="top:20px;margin:10px;padding:10px;background-color: rgba(0, 0, 0, 0.7); color:white;">
+    <div class="card col-md-5 col-xs-12 col-xl-3 col-lg-6" style="top:20px;margin:10px;padding:10px;height:max-content;background-color: rgba(0, 0, 0, 0.7); color:white;">
         <div class="card-heading ">User Registration</div>
         <div class="card-body">
     <form action="register_new_action.php" method="post">
