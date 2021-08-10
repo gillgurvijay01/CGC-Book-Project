@@ -5,7 +5,8 @@ $email=$_POST['email'];
 $mobile=$_POST['mobile'];
 $password=$_POST['password-new'];
 $password2=$_POST['password-confirm'];
-
+$password=md5($password);
+$password2=md5($password2);
 
 
 ?>
