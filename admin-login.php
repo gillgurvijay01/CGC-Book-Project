@@ -19,7 +19,7 @@
    include 'outheader.php'
    ?> 
 <div class="full">
-    <div class="card col-md-5 col-xs-12 col-xl-3 col-lg-6" style="top:20px;margin:10px;padding:10px;height:max-content;background-color: rgba(0, 0, 0, 0.7); color:white;">
+    <div class="card col-md-5 col-xs-12 col-xl-3 col-lg-6 " style="top:50px;margin:10px;padding:10px;height:max-content;background-color: rgba(0, 0, 0, 0.7); color:white;">
         <div class="card-heading ">Admin Login</div>
         <div class="card-body">
     <form action="register_new_action.php" method="post">
@@ -27,25 +27,12 @@
         <label for="username">Username</label>
         <input type="text" class="form-control" id="username" name="username">
     </div>
-    <div class="form-group"></div>
-    <label for="first_name">First Name</label>
-    <input type="text" class="form-control" id="first_name" name="first_name">
-    <div class="form-group"></div>
-    <label for="last_name">Last Name</label>
-    <input type="text" class="form-control" id="last_name" name="last_name">
-    <div class="form-group"></div>
-    <label for="Address">Address</label>
-    <input type="text" class="form-control" id="address" name="address"> 
-    <div class="form-group"></div>
-    <label for="mobile">Mobile</label>
-    <input type="text" inputmode="numeric" class="form-control" id="mobile" name="mobile">
     <div class="form-group">
         <label for="password">Password</label>
         <input type="password" class="form-control" id="password" name="password">
     </div>
     <div class="form-group">
         <input type="submit" class="btn btn-primary" value="Submit"></button>
-
     </div>
     </form>
     </div>
