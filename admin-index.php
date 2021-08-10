@@ -1,3 +1,9 @@
+<?php
+session_start();
+// echo $_SESSION['id'];
+// die();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +16,30 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="css/admin.css">
 </head>
 <body>
     <?php
         include 'admin-header.php';
     ?>
+<!-- <?php
+    echo "Welcome Mr. Admin";
+    ?> -->
+
+    <div class="full">
+        <div class="display">
+            <div class="cols">
+        <h4>Total Number of current users : <?php include 'total-users.php';?></h4>
+        <h4>Total number of products : <?php include 'total_products.php'?></h4>    
+    </div>
+        </div>
+    </div>
+
+
+
+
+<?php 
+include "footer.php";
+?>
 </body>
 </html>
