@@ -1,6 +1,5 @@
 <?php
-    $con=mysqli_connect( "localhost",  "gurvijay" , "password" , "bookProject") or
-    die(mysqli_error($con));
+    include 'db_con.php';
     $query="SELECT * FROM product";
     $quer=mysqli_query($con,$query);
     $no_of_rows=mysqli_num_rows($quer);

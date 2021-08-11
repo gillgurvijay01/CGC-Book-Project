@@ -1,3 +1,16 @@
+<?php
+session_start();
+// echo $_SESSION['id'];
+// die();
+?>
+<?php
+     include 'db_con.php';
+     $SELECT_QUERY="SELECT * FROM user";
+     $SELECT_QUERY_GET=mysqli_query($con,$SELECT_QUERY)
+     or die(mysqli_error($con));
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,30 +31,28 @@
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">address</th>
+      <th scope="col">mobile</th>
+      <th scope="col">email</th>
+      <th scope="col">password</th>
+    
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+<?php while($row=mysqli_fetch_array($SELECT_QUERY_GET)){?>
+  <tr>
+      <th scope="row"><?php echo $row['id']; ?></th>
+      <td><?php echo $row['first_name']; ?></td>
+      <td><?php echo $row['last_name']; ?></td>
+      <td><?php echo $row['address']; ?></td>
+      <td><?php echo $row['mobile']; ?></td>
+      <td><?php echo $row['email']; ?></td>
+      <td><?php echo $row['password']; ?></td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
+<?php }?>
+      
   </tbody>
 </table>
 </div>

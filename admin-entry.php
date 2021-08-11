@@ -1,6 +1,5 @@
 <?php
-$con=mysqli_connect( "localhost",  "gurvijay" , "password" , "bookProject") or
-die(mysqli_error($con));
+include 'db_con.php';
 $uname=$_POST['username'];
 $password=$_POST['password'];
 if (($uname == 'admin') && ($password == 'password')){
