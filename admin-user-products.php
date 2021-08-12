@@ -5,7 +5,7 @@ session_start();
 ?>
 <?php
      include 'db_con.php';
-     $SELECT_QUERY="SELECT * FROM unauthorized_admin_track ";
+     $SELECT_QUERY="SELECT up.id, up.uid, up.pid, u.first_name, u.last_name, p.cost, u.mobile, u.email, u.address, up.date_time  FROM user_product_ordered up INNER JOIN user u ON u.id = up.uid INNER JOIN product p ON p.pid=up.pid";
      $SELECT_QUERY_GET=mysqli_query($con,$SELECT_QUERY)
      or die(mysqli_error($con));
 
@@ -27,23 +27,34 @@ session_start();
 <body>
 <?php include'admin-header.php' ?>
 <div class="main">
-<table class="table table-striped">
+<table class="table table-striped  table-bordered">
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">user</th>
-      <th scope="col">password</th>
-      <th scope="col">time</th>
-                   
+      <th scope="col">User id</th>
+      <th scope="col">Product id</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Cost</th>
+      <th scope="col">Mobile</th>
+      <th scope="col">Email</th>
+      <th scope="col">Address</th>
+      <th scope="col">Date Time of Order</th>
     </tr>
   </thead>
   <tbody>
 <?php while($row=mysqli_fetch_array($SELECT_QUERY_GET)){?>
   <tr>
       <th scope="row"><?php echo $row['id']; ?></th>
-      <td><?php echo $row['user']; ?></td>
-      <td><?php echo $row['password']; ?></td>
-      <td><?php echo $row['time']; ?></td>
+      <td><?php echo $row['uid']; ?></td>
+      <td><?php echo $row['pid']; ?></td>
+      <td><?php echo $row['first_name']; ?></td>
+      <td><?php echo $row['last_name']; ?></td>
+      <td><?php echo $row['cost']; ?></td>
+      <td><?php echo $row['mobile']; ?></td>
+      <td><?php echo $row['email']; ?></td>
+      <td><?php echo $row['address']; ?></td>
+      <td><?php echo $row['date_time']; ?></td>
     </tr>
 <?php }?>
       
