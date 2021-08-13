@@ -2,3 +2,8 @@
     padding-top: 50px;
 
 }
+.main>a{
+    position: relative;
+    top:40px;
+    left:30px;
+}

@@ -1,6 +1,6 @@
 <?php
 session_start();
-// echo $_SESSION['id'];
+echo $_SESSION['id'];
 // die();
 ?>
 
@@ -22,9 +22,9 @@ session_start();
     <?php
         include 'admin-header.php';
     ?>
-<!-- <?php
-    echo "Welcome Mr. Admin";
-    ?> -->
+<?php
+    // echo "Welcome Mr. Admin";
+    ?>
 
     <div class="full">
         <div class="display">
@@ -32,6 +32,7 @@ session_start();
         <h4>Total Number of current users : <?php include 'total-users.php';?></h4>
         <h4>Total number of products : <?php include 'total_products.php'?></h4>    
         <h4>Total Products ordered :<?php include 'total_orders.php'?></h4>
+        <h4>Total amount of sold:<?php include 'total-price.php'?></h4>
         <h4>Total Untuthorized tried to access admin :<?php include 'total_unauth.php'?></h4>
         <h4>Total Number of times authorized admin acess :<?php include 'total_auth.php'?></h4>
     </div>
