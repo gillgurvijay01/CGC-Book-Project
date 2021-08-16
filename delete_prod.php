@@ -1,6 +1,5 @@
 <?php
-    $con=mysqli_connect( "localhost",  "gurvijay" , "password" , "bookProject") or
-    die(mysqli_error($con));
+    include 'db_con.php';
     $pid = $_GET['pid']; // get id through query string
     // echo $pid;
     $del_query="DELETE from product where pid = $pid";

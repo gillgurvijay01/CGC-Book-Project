@@ -25,24 +25,24 @@ session_start();
     <div class="card col-md-5 col-xs-12 col-xl-3 col-lg-6" style="top:20px;padding:10px;height:max-content;background-color: rgba(0, 0, 0, 0.7); color:white;">
         <div class="card-heading " style="margin-top: 100px;">Add New Product</div>
         <div class="card-body">
-    <form action="admin_register_new_product.php" method="post">
+        <form action="admin_register_new_product.php" method="post" enctype="multipart/form-data">
     <div class="form-group">
         <label for="Name">Name</label>
         <input type="name" class="form-control" id="name" name="name">
     </div>
-    <div class="form-group"></div>
-    <label for="discription">Discription</label>
-    <input type="text" class="form-control" id="discription" name="discription">
-    <div class="form-group"></div>
-    <label for="last_name">Cost</label>
-    <input type="number" class="form-control" id="cost" name="cost">
-    <div class="form-group"></div>
-    <label for="Address">Image</label>
-    <input type="file" class="form-control" id="image" name="image"> 
+    <div class="form-group"><label for="description">Description</label>
+    <input type="text" class="form-control" id="description" name="description"></div>
+
+    <div class="form-group"><label for="last_name">Cost</label>
+    <input type="number" class="form-control" id="cost" name="cost"></div>
+
+    <div class="form-group"><label for="image">Image</label>
+    <input type="file" class="form-control" id="image" name="image"> </div>
+
     <div class="form-group">
-        <input type="submit" class="btn btn-primary" value="submit"></button>
+        <input type="submit" name="submit" class="btn btn-primary" value="submit"></button>
     </div>
-    </form>
+</form>
     </div>
     </div>
 </div>
