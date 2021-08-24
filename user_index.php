@@ -1,7 +1,13 @@
 <?php
    include('session.php');
 ?>
+<?php
+     include 'db_con.php';
+     $SELECT_QUERY="SELECT * from product";
+     $SELECT_QUERY_GET=mysqli_query($con,$SELECT_QUERY)
+     or die(mysqli_error($con));
 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +22,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1>Welcome <?php echo $login_session; ?></h1> 
+    <?php include 'user_header.php';?>
+
+    <div class="container" style="margin-top:100px;">
+         
+         <?php while($row=mysqli_fetch_array($SELECT_QUERY_GET)){?>
+            <div class="row">
+             <div class="col-md-4 img-thumbnail" >
+                <img src="media/<?php echo $row['file_img_link']?>" alt="" class="img-thumbnail">
+                <h3><?php echo $row['name']?></h3>
+                <h4><i class="fas fa-rupee-sign"></i><?php echo $row['cost']?></h4>
+                <p><?php echo $row['detail_desc']?></p>
+             </div>
+            
+<?php }?>
+
+
+    <?php include 'footer.php';?>
 </body>
 </html>
