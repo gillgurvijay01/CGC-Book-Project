@@ -24,16 +24,17 @@
 <body>
     <?php include 'user_header.php';?>
 
-    <div class="container" style="margin-top:100px;">
+    <div class="container" style="margin-top:100px;margin-bottom:50px;">
          
          <?php while($row=mysqli_fetch_array($SELECT_QUERY_GET)){?>
-            <div class="row">
-             <div class="col-md-4 img-thumbnail" >
+            <div class="row img-fluid">
+             <div class="col-md-3 img-thumbnail" >
                 <img src="media/<?php echo $row['file_img_link']?>" alt="" class="img-thumbnail">
                 <h3><?php echo $row['name']?></h3>
                 <h4><i class="fas fa-rupee-sign"></i><?php echo $row['cost']?></h4>
                 <p><?php echo $row['detail_desc']?></p>
-             </div>
+                <a class="btn btn-danger" href="order_prod.php?pid=<?php echo $row['pid']?>">Order</a>
+            </div>
             
 <?php }?>
 
