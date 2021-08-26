@@ -7,7 +7,7 @@
       
       $myusername = mysqli_real_escape_string($con,$_POST['email']);
       $mypassword = mysqli_real_escape_string($con,$_POST['password']); 
-      
+      $mypassword=md5($mypassword);
       $sql = "SELECT id FROM user WHERE email = '$myusername' and password = '$mypassword'";
       $result = mysqli_query($con,$sql);
       $row = mysqli_fetch_array($result,MYSQLI_ASSOC);

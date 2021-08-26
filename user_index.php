@@ -26,14 +26,15 @@
 
     <div class="container" style="margin-top:100px;margin-bottom:50px;">
          
-         <?php while($row=mysqli_fetch_array($SELECT_QUERY_GET)){?>
+       
             <div class="row img-fluid">
+            <?php while($row=mysqli_fetch_array($SELECT_QUERY_GET)){?>
              <div class="col-md-3 img-thumbnail" >
-                <img src="media/<?php echo $row['file_img_link']?>" alt="" class="img-thumbnail">
+                <img src="media/<?php echo $row['file_img_link']?>" alt="" class="img-thumbnail" style="height:60%; align-self:center ">
                 <h3><?php echo $row['name']?></h3>
                 <h4><i class="fas fa-rupee-sign"></i><?php echo $row['cost']?></h4>
                 <p><?php echo $row['detail_desc']?></p>
-                <a class="btn btn-danger" href="order_prod.php?pid=<?php echo $row['pid']?>">Order</a>
+                <a class="btn btn-danger" href="order_prod.php?pid=<?php echo $row['pid']?>" onclick="alert('<?php echo $row['name']?> order successfull . Now you can order another product')">Order</a>
             </div>
             
 <?php }?>
