@@ -35,15 +35,15 @@
     </div>
     <div class="form-group">
         <label for="password-new">New Password</label>
-        <input type="password-new" class="form-control" id="password-new" name="password-mew">
+        <input type="password" class="form-control" id="password-new" name="password-new">
     </div>
 
     <div class="form-group">
         <label for="password-confirm">Confirm Password</label>
-        <input type="password-confirm" class="form-control" id="password-confirm" name="password-confirm">
+        <input type="password" class="form-control" id="password-confirm" name="password-confirm">
     </div>
     <div class="form-group">
-        <input type="submit" class="btn btn-primary" value="Submit"></button>
+        <input type="submit" onclick="alert('After clicking ok if your details are legit , the password will be changed, and you will be redirected to homepage')"class="btn btn-success" value="Submit"></button>
     </div>
     </form>
     </div>
