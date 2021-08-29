@@ -1,8 +1,7 @@
-<?php
-   include('session.php');
-?>
+
 <?php
      include 'db_con.php';
+     include 'session.php';
      $SELECT_QUERY="SELECT * from product";
      $SELECT_QUERY_GET=mysqli_query($con,$SELECT_QUERY)
      or die(mysqli_error($con));
