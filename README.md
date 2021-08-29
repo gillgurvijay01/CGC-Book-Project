@@ -13,10 +13,10 @@ Project was made in mid 2021
 
 ## Authors
 
-- [Gurvijay Singh Gill](https://www.github.com/gillgurvijay01)[![Github](https://img.shields.io/github/followers/gillgurvijay01?style=social)](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fgillgurvijay01)
+- [Gurvijay Singh Gill](https://www.github.com/gillgurvijay01)  [![Github](https://img.shields.io/github/followers/gillgurvijay01?style=social)](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fgillgurvijay01)
 
 
-- [Tejbir Singh](https://www.github.com/tejbirsingh7878)[![Github](https://img.shields.io/github/followers/tejbirsingh7878?style=social)](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftejbirsingh7878)
+- [Tejbir Singh](https://www.github.com/tejbirsingh7878)  [![Github](https://img.shields.io/github/followers/tejbirsingh7878?style=social)](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftejbirsingh7878)
 
 
 
