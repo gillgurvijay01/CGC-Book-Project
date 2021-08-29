@@ -1,7 +1,7 @@
 
 # The CGC Book Project
 
-This is a dynamic E-Commerce website made my me ( Gurvijay Singh Gill) along with my 
+This is a dynamic E-Commerce website made my me along with my 
 partner of the project Tejbir Singh.
 This Project is for univerity curriculam of 7th semester in the Bachelor of 
 Technology in Computer Science in Engineering.
@@ -9,15 +9,19 @@ Technology in Computer Science in Engineering.
 Project was made in mid 2021
 
 
-## Authors
+
 
 ## Authors
 
 - [Gurvijay Singh Gill](https://www.github.com/gillgurvijay01)  [![Github](https://img.shields.io/github/followers/gillgurvijay01?style=social)](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fgillgurvijay01)
-
+  
+  [![TWitter](https://img.shields.io/twitter/follow/gillgurvijay01?style=social)](https://twitter.com/gillgurvijay01)
 
 - [Tejbir Singh](https://www.github.com/tejbirsingh7878)  [![Github](https://img.shields.io/github/followers/tejbirsingh7878?style=social)](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftejbirsingh7878)
 
+
+  [![TWitter](https://img.shields.io/twitter/follow/TejbirSingh7878?style=social)](https://twitter.com/tejbirsingh7878)
+ 
 
 
 
