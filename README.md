@@ -1,6 +1,8 @@
 
 # The CGC Book Project
-
+ [![Website](https://img.shields.io/website?down_color=red&down_message=down&up_message=live&url=http%3A%2F%2Fbookcgc.epizy.com%2F)](http://bookcgc.epizy.com/)
+ 
+ 
 This is a dynamic E-Commerce website made my me along with my 
 partner of the project Tejbir Singh.
 This Project is for univerity curriculam of 7th semester in the Bachelor of 
