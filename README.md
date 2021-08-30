@@ -15,9 +15,7 @@ Project was made in mid 2021
  [![Issues](https://img.shields.io/github/issues/gillgurvijay01/CGC-Book-Project)]()
  [![Stars](https://img.shields.io/github/stars/gillgurvijay01/CGC-Book-Project)]()
  [![License](https://img.shields.io/github/license/gillgurvijay01/CGC-Book-Project)]()
- [![Twitter](https://img.shields.io/github/license/gillgurvijay01/CGC-Book-Project)]()
-
-
+ 
 ## Authors
 
 - [Gurvijay Singh Gill](https://www.github.com/gillgurvijay01)  [![Github](https://img.shields.io/github/followers/gillgurvijay01?style=social)](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fgillgurvijay01)
