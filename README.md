@@ -7,12 +7,15 @@ This Project is for univerity curriculam of 7th semester in the Bachelor of
 Technology in Computer Science in Engineering.
 
 Project was made in mid 2021
-
+ 
  [![Reposize](https://img.shields.io/github/repo-size/gillgurvijay01/cgc-book-project?label=Size%20of%20Project)]()
  [![Commit](https://img.shields.io/github/commit-activity/m/gillgurvijay01/cgc-book-project)]()
  [![LastCommit](https://img.shields.io/github/last-commit/gillgurvijay01/cgc-book-project)]()
  [![Forks](https://img.shields.io/github/forks/gillgurvijay01/cgc-book-project?style=social)]()
- [![Forks](https://img.shields.io/github/forks/gillgurvijay01/cgc-book-project?style=social)]()
+ [![Issues](https://img.shields.io/github/issues/gillgurvijay01/CGC-Book-Project)]()
+ [![Stars](https://img.shields.io/github/stars/gillgurvijay01/CGC-Book-Project)]()
+ [![License](https://img.shields.io/github/license/gillgurvijay01/CGC-Book-Project)]()
+ [![Twitter](https://img.shields.io/github/license/gillgurvijay01/CGC-Book-Project)]()
 
 
 ## Authors
