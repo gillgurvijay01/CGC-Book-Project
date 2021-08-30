@@ -9,8 +9,11 @@ partner of the project Tejbir Singh.
 Technology in Computer Science in Engineering.
 - Admin id is static with only USERNAME = admin and PASSWORD = password.
 - Website has no security
+- Most part of website is fully responsive means it changes size on device change but at some places I need no improve.
 
-Project was made in mid 2021
+
+
+## Project was made in mid 2021
 
  [![GitHub top language](https://img.shields.io/github/languages/top/gillgurvijay01/cgc-book-project)]()
  [![Reposize](https://img.shields.io/github/repo-size/gillgurvijay01/cgc-book-project?label=Size%20of%20Project)]()
