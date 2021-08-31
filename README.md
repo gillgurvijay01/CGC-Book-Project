@@ -13,6 +13,9 @@ Technology in Computer Science in Engineering.
 
 
 
+
+
+
 ## Project was made in mid 2021
 
  [![GitHub top language](https://img.shields.io/github/languages/top/gillgurvijay01/cgc-book-project)]()
@@ -26,6 +29,7 @@ Technology in Computer Science in Engineering.
  [![License](https://img.shields.io/github/license/gillgurvijay01/CGC-Book-Project)]()
  [![Lines of code](https://img.shields.io/tokei/lines/github/gillgurvijay01/cgc-book-project)]()
  [![GitHub pull requests](https://img.shields.io/github/issues-pr/gillgurvijay01/cgc-book-project)]()
+ [![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=gillgurvijay01.cgc-book-project)]()
  
  
  
