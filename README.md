@@ -23,14 +23,13 @@ Technology in Computer Science in Engineering.
  [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/GILLGURVIJAY01/CGC-BOOK-PROJECT)]()
  [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gillgurvijay01/CGC-Book-Project)]()
  [![LastCommit](https://img.shields.io/github/last-commit/gillgurvijay01/cgc-book-project)]()
- [![Forks](https://img.shields.io/github/forks/gillgurvijay01/cgc-book-project?style=social)]()
  [![Issues](https://img.shields.io/github/issues/gillgurvijay01/CGC-Book-Project)]()
  [![Stars](https://img.shields.io/github/stars/gillgurvijay01/CGC-Book-Project)]()
  [![License](https://img.shields.io/github/license/gillgurvijay01/CGC-Book-Project)]()
  [![Lines of code](https://img.shields.io/tokei/lines/github/gillgurvijay01/cgc-book-project)]()
  [![GitHub pull requests](https://img.shields.io/github/issues-pr/gillgurvijay01/cgc-book-project)]()
  [![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=gillgurvijay01.cgc-book-project)]()
- 
+ [![Forks](https://img.shields.io/github/forks/gillgurvijay01/cgc-book-project?style=social)]()
  
  
 ## Authors
