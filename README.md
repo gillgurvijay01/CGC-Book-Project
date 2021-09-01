@@ -45,6 +45,18 @@ Technology in Computer Science in Engineering.
  
 
 
+#### The Tables in the database 
+
+
+| Tables                    |
+| ------------------------- |
+| authorize                 |
+| product                   |
+| unauthorized_admin_track  |
+| user                      |
+| user_product_ordered      |
+
+
 
 
   
