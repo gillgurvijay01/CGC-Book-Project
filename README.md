@@ -7,7 +7,7 @@
 partner of the project Tejbir Singh.
 - This Project is for univerity curriculam of 7th semester in the Bachelor of 
 Technology in Computer Science in Engineering.
-- Admin id is static with only USERNAME = admin and PASSWORD = password.
+- Admin id is static with only single username & password.
 - Website has no security
 - Most part of website is fully responsive means it changes size on device change but at some places I need no improve.
 
